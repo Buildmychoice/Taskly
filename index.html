@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taskly</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="task">
+      <div class="left-sidebar">
+        <div class="sidebar-top">
+          <div class="logo-container">
+            <img
+              class="logo"
+              src="./images/Taskly logo.png"
+              alt="Taskly logo"
+            />
+          </div>
+          <div class="navs-container">
+            <button class="nav-button">
+              <a href="">
+                <div class="nav-icon">
+                  <span class="material-symbols-outlined">dashboard</span>
+                </div>
+                <div class="nav-text">Dashboard</div>
+              </a>
+            </button>
+
+            <button class="nav-button">
+              <a href="">
+                <div class="nav-icon">
+                  <span class="material-symbols-outlined">folder_open</span>
+                </div>
+                <div class="nav-text">Projects</div>
+              </a>
+            </button>
+
+            <button class="nav-button-active">
+              <a href="">
+                <div class="nav-icon">
+                  <span class="material-symbols-outlined"
+                    >format_list_bulleted</span
+                  >
+                </div>
+                <div class="nav-text">Tasks</div>
+              </a>
+            </button>
+
+            <button class="nav-button">
+              <a href="">
+                <div class="nav-icon">
+                  <span class="material-symbols-outlined">calendar_check</span>
+                </div>
+                <div class="nav-text">Calendar</div>
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="sidebar-bottom">
+          <button class="nav-button-logout">
+            <a href="">
+              <div class="nav-icon">
+                <span class="material-symbols-outlined">logout</span>
+              </div>
+              <div class="nav-text">Logout</div>
+            </a>
+          </button>
+        </div>
+      </div>
+
+      <div class="content-container">
+        <div class="top-bar-conainer">
+          <div class="search-bar-container">
+            <input
+              type="text"
+              name="search"
+              id="search"
+              placeholder="Search here"
+            />
+            <span class="material-symbols-outlined">search</span>
+          </div>
+
+          <div class="notification-and-user-image-container">
+            <span class="material-symbols-outlined">notifications </span>
+            <div class="user-image-container">
+              <img src="./images/avatar 2.avif" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="main-content-container">
+          <div class="heading-container">
+            <h1>Tasks</h1>
+            <div class="actions-container">
+              <span class="material-symbols-outlined">group</span>
+              <span class="material-symbols-outlined">filter_alt </span>
+              <button>
+                New Task
+                <span class="material-symbols-outlined">add </span>
+              </button>
+            </div>
+          </div>
+
+          <div class="content-wrapper">
+            <div class="task-type">
+              <div class="type-and-icon">
+                <span class="material-symbols-outlined">calendar_today</span>
+                <p clas="task-name">To-do</p>
+              </div>
+
+              <div class="tasks-list-container">
+                <div class="task-card to-do">
+                  <div class="top">
+                    <div class="user-image">
+                      <img src="./images/avatar 2.avif" alt="" />
+                    </div>
+                    <div class="edit-and-delete-container">
+                      <span class="material-symbols-outlined">edit</span>
+                      <span class="material-symbols-outlined">delete</span>
+                    </div>
+                  </div>
+                  <p class="task-details">
+                    Design the admin dashboard of assylum project, do the
+                    prototype, provide a dev documentation and present.
+                  </p>
+                </div>
+
+                <div class="task-card to-do">
+                  <div class="top">
+                    <div class="user-image">
+                      <img src="./images/avatar 2.avif" alt="" />
+                    </div>
+                    <div class="edit-and-delete-container">
+                      <span class="material-symbols-outlined">edit</span>
+                      <span class="material-symbols-outlined">delete</span>
+                    </div>
+                  </div>
+                  <p class="task-details">
+                    Design the admin dashboard of assylum project, do the
+                    prototype, provide a dev documentation and present.
+                  </p>
+                </div>
+
+                <div class="task-card to-do">
+                  <div class="top">
+                    <div class="user-image">
+                      <img src="./images/avatar 2.avif" alt="" />
+                    </div>
+                    <div class="edit-and-delete-container">
+                      <span class="material-symbols-outlined">edit</span>
+                      <span class="material-symbols-outlined">delete</span>
+                    </div>
+                  </div>
+                  <p class="task-details">
+                    Design the admin dashboard of assylum project, do the
+                    prototype, provide a dev documentation and present.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="task-type">
+              <div class="type-and-icon">
+                <span class="material-symbols-outlined">hourglass_top</span>
+                <p clas="task-name">In-progress</p>
+              </div>
+
+              <div class="tasks-list-container">
+                <div class="task-card in-progress">
+                  <div class="top">
+                    <div class="user-image">
+                      <img src="./images/avatar 2.avif" alt="" />
+                    </div>
+                    <div class="edit-and-delete-container">
+                      <span class="material-symbols-outlined">edit</span>
+                      <span class="material-symbols-outlined">delete</span>
+                    </div>
+                  </div>
+                  <p class="task-details">
+                    Design the admin dashboard of assylum project, do the
+                    prototype, provide a dev documentation and present.
+                  </p>
+                </div>
+
+                <div class="task-card in-progress">
+                  <div class="top">
+                    <div class="user-image">
+                      <img src="./images/avatar 2.avif" alt="" />
+                    </div>
+                    <div class="edit-and-delete-container">
+                      <span class="material-symbols-outlined">edit</span>
+                      <span class="material-symbols-outlined">delete</span>
+                    </div>
+                  </div>
+                  <p class="task-details">
+                    Design the admin dashboard of assylum project, do the
+                    prototype, provide a dev documentation and present.
+                  </p>
+                </div>
+
+                <div class="task-card in-progress">
+                  <div class="top">
+                    <div class="user-image">
+                      <img src="./images/avatar 2.avif" alt="" />
+                    </div>
+                    <div class="edit-and-delete-container">
+                      <span class="material-symbols-outlined">edit</span>
+                      <span class="material-symbols-outlined">delete</span>
+                    </div>
+                  </div>
+                  <p class="task-details">
+                    Design the admin dashboard of assylum project, do the
+                    prototype, provide a dev documentation and present.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="task-type">
+              <div class="type-and-icon">
+                <span class="material-symbols-outlined">check_box</span>
+                <p clas="task-name">Done</p>
+              </div>
+
+              <div class="tasks-list-container">
+                <div class="task-card done">
+                  <div class="top">
+                    <div class="user-image">
+                      <img src="./images/avatar 2.avif" alt="" />
+                    </div>
+                    <div class="edit-and-delete-container">
+                      <span class="material-symbols-outlined">edit</span>
+                      <span class="material-symbols-outlined">delete</span>
+                    </div>
+                  </div>
+                  <p class="task-details">
+                    Design the admin dashboard of assylum project, do the
+                    prototype, provide a dev documentation and present.
+                  </p>
+                </div>
+
+                <div class="task-card done">
+                  <div class="top">
+                    <div class="user-image">
+                      <img src="./images/avatar 2.avif" alt="" />
+                    </div>
+                    <div class="edit-and-delete-container">
+                      <span class="material-symbols-outlined">edit</span>
+                      <span class="material-symbols-outlined">delete</span>
+                    </div>
+                  </div>
+                  <p class="task-details">
+                    Design the admin dashboard of assylum project, do the
+                    prototype, provide a dev documentation and present.
+                  </p>
+                </div>
+
+                <div class="task-card done">
+                  <div class="top">
+                    <div class="user-image">
+                      <img src="./images/avatar 2.avif" alt="" />
+                    </div>
+                    <div class="edit-and-delete-container">
+                      <span class="material-symbols-outlined">edit</span>
+                      <span class="material-symbols-outlined">delete</span>
+                    </div>
+                  </div>
+                  <p class="task-details">
+                    Design the admin dashboard of assylum project, do the
+                    prototype, provide a dev documentation and present.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
