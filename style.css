@@ -454,6 +454,14 @@ button:hover {
     width: 100%;
     margin-left: 0;
   }
+
+  .task-card {
+    min-width: 300px;
+  }
+
+  .tasks-list-container {
+    overflow-x: auto;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -461,11 +469,25 @@ button:hover {
     display: none;
   }
 
+  .top-bar-conainer {
+    padding: 1rem 1rem;
+    gap: 2rem;
+  }
+
+  .main-content-container {
+    padding: 0 1rem;
+  }
+
   .search-bar-container {
     width: 70%;
+    flex: 1;
   }
 
   .task-card {
-    width: 100%;
+    min-width: 260px;
+  }
+
+  .tasks-list-container {
+    overflow-x: auto;
   }
 }
