@@ -21,6 +21,7 @@ vaiable {
 }
 
 .left-sidebar {
+  width: 260px;
   min-width: 250px;
   max-width: 280px;
   height: 100%;
@@ -163,8 +164,8 @@ vaiable {
 }
 
 .content-container {
+  width: 100%;
   height: auto;
-  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -181,6 +182,10 @@ vaiable {
   align-items: center;
   padding: 1.25rem 1.25rem;
   border-bottom: 1px solid #efefef;
+  position: sticky;
+  top: 0;
+  z-index: 900px;
+  background-color: #fff;
 }
 
 .search-bar-container {
@@ -447,16 +452,15 @@ button:hover {
 
   .content-wrapper {
     width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
-    row-gap: 1.25rem;
+    margin-left: 0;
   }
 }
 
 @media screen and (max-width: 550px) {
+  .left-sidebar {
+    display: none;
+  }
+
   .search-bar-container {
     width: 70%;
   }
