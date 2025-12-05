@@ -188,11 +188,11 @@ vaiable {
   align-items: center;
   padding: 1.25rem 1.25rem;
   border-bottom: 1px solid #efefef;
-  position: sticky;
-  top: 0;
-  z-index: 900px;
   background-color: #fff;
   position: fixed;
+  top: 0;
+  right: 0;
+  left: 260px;
 }
 
 .search-bar-container {
@@ -463,6 +463,10 @@ button:hover {
     margin-left: 0px;
   }
 
+  .top-bar-conainer {
+    left: 0px;
+  }
+
   .task-card {
     min-width: 300px;
   }
@@ -484,7 +488,7 @@ button:hover {
 
   .main-content-container {
     padding: 0 1rem;
-    padding-top: 40px;
+    padding-top: 96px;
   }
 
   .search-bar-container {
