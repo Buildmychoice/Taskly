@@ -180,19 +180,20 @@ vaiable {
 }
 
 .top-bar-conainer {
-  width: 100%;
+  width: auto;
   height: 76px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 1.25rem 1.25rem;
+  padding: 0 1.25rem;
   border-bottom: 1px solid #efefef;
   background-color: #fff;
   position: fixed;
   top: 0;
   right: 0;
   left: 260px;
+  z-index: 1100;
 }
 
 .search-bar-container {
@@ -221,7 +222,7 @@ vaiable {
 }
 
 .notification-and-user-image-container {
-  width: auto;
+  width: fit-content;
   height: auto;
   display: flex;
   flex-direction: row;
